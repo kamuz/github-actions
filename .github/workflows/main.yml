@@ -1,7 +1,7 @@
 on:
   push:
     branches:
-      - main
+      - master
 name: 🚀 Deploy website on push
 jobs:
   web-deploy:
@@ -16,5 +16,5 @@ jobs:
       with:
         server: doskadpk.ftp.tools
         username: ${{ secrets.ftp_username }}
-        password: ${{ secrets.@Webhitman021183 }}
+        password: ${{ secrets.ftp_password }}
         server-dir: /home/doskadpk/wpdev.pp.ua/www/
