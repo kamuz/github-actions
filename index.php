@@ -1,3 +1,3 @@
 <?php
-echo "Hello, World!";
+echo "Hello, World!<br>";
 echo 'Today is ' . date('Y-m-d');
